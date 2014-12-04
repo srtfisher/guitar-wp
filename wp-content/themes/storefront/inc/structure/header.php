@@ -44,7 +44,7 @@ if ( ! function_exists( 'storefront_header_widget_region' ) ) {
 	function storefront_header_widget_region() {
 		?>
 		<div class="header-widget-region">
-			<div class="col-full">
+			<div class="col-none">
 				<?php dynamic_sidebar( 'header-1' ); ?>
 			</div>
 		</div>
